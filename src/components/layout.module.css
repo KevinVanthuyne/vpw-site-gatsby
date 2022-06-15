@@ -1,0 +1,9 @@
+.nav-container {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.nav-item {
+    padding-right: 2rem;
+}
