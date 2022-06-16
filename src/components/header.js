@@ -2,24 +2,30 @@ import * as React from 'react'
 import {Link} from "gatsby";
 import {StaticImage} from "gatsby-plugin-image";
 import * as styles from './header.module.scss'
+import {Container, Nav, Navbar} from "react-bootstrap";
 
 const Header = () => {
     return (
-        <nav className="navbar fixed-top navbar-expand-lg">
-            <div className="container-fluid">
-                <Link to="/" className="navbar-brand">
-                    <StaticImage src="../images/vpw-icon-solo.png" alt="VPW logo"
-                                 className={styles.navbarBrandImg}/>
-                </Link>
+        <Navbar expand="lg" fixed="top">
+            <Container fluid>
+                <Navbar.Brand>
+                    <Link to="/">
+                        <StaticImage src="../images/vpw-icon-solo.png" alt="VPW logo"
+                                     className={styles.navbarBrandImg}/>
+                    </Link>
+                </Navbar.Brand>
 
-                <span className="flex-grow-1"/>
+                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
 
-                <ul className="navbar-nav">
-                    <li className="nav-item"><Link to="/" className="nav-link">Home</Link></li>
-                    <li className="nav-item"><Link to="/about" className="nav-link">About</Link></li>
-                </ul>
-            </div>
-        </nav>
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <span className="flex-grow-1"/>
+                    <Nav>
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/about">About</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     )
 }
 
