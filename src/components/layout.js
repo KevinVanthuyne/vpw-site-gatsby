@@ -6,9 +6,9 @@ const Layout = ({pageTitle, children}) => {
         <div>
             <Header/>
 
-            <div className="container-fluid mt-5">
+            <div className="container-fluid">
                 <main>
-                    <h1>{pageTitle}</h1>
+                    <h1 className="d-none">{pageTitle}</h1>
                     {children}
                 </main>
             </div>
