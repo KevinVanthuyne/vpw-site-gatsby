@@ -1,4 +1,14 @@
+@use './src/styles/variables' as var;
+
 .navbar-brand-img {
     height: 50px;
     width: 50px;
+}
+
+.nav-link {
+    color: var.$vpw-beige !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    padding-left: 2em !important;
+    padding-right: 2em !important;
 }

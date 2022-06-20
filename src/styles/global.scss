@@ -1,21 +1,23 @@
 @use '/src/styles/variables' as var;
 
+@import '~bootstrap/scss/bootstrap';
+
 body {
-  background-color: var.$vpw-dark-blue !important;
-  color: var.$vpw-beige !important;
-  font-family: 'Karla', sans-serif !important;
+    background-color: var.$vpw-dark-blue !important;
+    color: var.$vpw-beige !important;
+    font-family: 'Karla', sans-serif !important;
 }
 
 a {
-  color: var.$vpw-logo-blue !important;
+    color: var.$vpw-logo-blue !important;
 }
 
 .big-title {
-  text-transform: uppercase;
-  font-size: 4rem;
-  font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-family: 'Anton', sans-serif;
 }
 
 .vh-120 {
-  height: 120vh;
+    height: 120vh;
 }

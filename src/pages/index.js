@@ -1,8 +1,6 @@
 import * as React from 'react';
 import Layout from '../components/layout';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 import LandingSection from '../components/pages/index/landing-section';
 
 const IndexPage = () => (
@@ -11,4 +9,4 @@ const IndexPage = () => (
     </Layout>
 );
 
-export default IndexPage
+export default IndexPage;
