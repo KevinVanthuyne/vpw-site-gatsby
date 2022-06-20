@@ -18,6 +18,20 @@ a {
     font-family: 'Anton', sans-serif;
 }
 
+.beige-text {
+    color: var.$vpw-beige-opaque;
+}
+
+.display-text {
+    font-size: 1.3em;
+}
+
+// Util classes
+
 .vh-120 {
     height: 120vh;
+}
+
+.mt-10 {
+    margin-top: 15rem;
 }
