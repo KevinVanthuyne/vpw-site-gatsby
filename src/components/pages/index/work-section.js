@@ -10,7 +10,7 @@ const WorkSection = () => (
                 With over 30 released tables and even more work-in-progress
                 ones, the VPW team is an established brand in VPin world.
             </p>
-            <DisplayButton>Discover our work →</DisplayButton>
+            <DisplayButton link="/">Discover our work →</DisplayButton>
         </div>
 
         <div className="col-md-5 offset-md-1 mt-5">
