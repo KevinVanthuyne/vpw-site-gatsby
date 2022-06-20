@@ -1,0 +1,10 @@
+@use '/src/styles/variables' as var;
+
+body {
+  background-color: var.$vpw-dark-blue !important;
+  color: var.$vpw-beige !important;
+}
+
+a {
+  color: var.$vpw-logo-blue !important;
+}
