@@ -1,32 +1,33 @@
-import * as React from 'react'
-import {Link} from "gatsby";
-import {StaticImage} from "gatsby-plugin-image";
-import * as styles from './header.module.scss'
-import {Container, Nav, Navbar} from "react-bootstrap";
+import * as React from 'react';
+import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
+import * as styles from './header.module.scss';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
-const Header = () => {
-    return (
-        <Navbar expand="lg" fixed="top">
-            <Container fluid>
-                <Navbar.Brand>
-                    <Link to="/">
-                        <StaticImage src="../images/vpw-icon-solo.png" alt="VPW logo"
-                                     className={styles.navbarBrandImg}/>
-                    </Link>
-                </Navbar.Brand>
+const Header = () => (
+    <Navbar expand="lg" fixed="top">
+        <Container fluid>
+            <Navbar.Brand>
+                <Link to="/">
+                    <StaticImage
+                        src="../images/vpw-icon-solo.png"
+                        alt="VPW logo"
+                        className={styles.navbarBrandImg}
+                    />
+                </Link>
+            </Navbar.Brand>
 
-                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <span className="flex-grow-1"/>
-                    <Nav>
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/about">About</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
-    )
-}
+            <Navbar.Collapse id="basic-navbar-nav">
+                <span className="flex-grow-1" />
+                <Nav>
+                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/about">About</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Container>
+    </Navbar>
+);
 
 export default Header

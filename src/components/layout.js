@@ -1,19 +1,17 @@
-import * as React from 'react'
-import Header from "./header";
+import * as React from 'react';
+import Header from './header';
 
-const Layout = ({pageTitle, children}) => {
-    return (
-        <div>
-            <Header/>
+const Layout = ({ pageTitle, children }) => (
+    <div>
+        <Header />
 
-            <div className="container-fluid">
-                <main>
-                    <h1 className="d-none">{pageTitle}</h1>
-                    {children}
-                </main>
-            </div>
+        <div className="container-fluid">
+            <main>
+                <h1 className="d-none">{pageTitle}</h1>
+                {children}
+            </main>
         </div>
-    )
-}
+    </div>
+);
 
-export default Layout
+export default Layout;
