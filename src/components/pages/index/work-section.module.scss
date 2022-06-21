@@ -1,0 +1,25 @@
+$carousel-item-width: 60%;
+$carousel-item-spacing-hor: 100px;
+$carousel-item-spacing-vert: 100px;
+$item-amount: 3;
+
+.table-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.table {
+    width: 60%;
+    position: absolute;
+    //width: $carousel-item-width;
+    //height: $carousel-item-width * 1.78;
+
+    @for $i from 1 through $item-amount {
+        &:nth-child(#{$i}) {
+            z-index: $i;
+            left: ($i - 1) * $carousel-item-spacing-hor;
+            top: $i * $carousel-item-spacing-vert;
+        }
+    }
+}
