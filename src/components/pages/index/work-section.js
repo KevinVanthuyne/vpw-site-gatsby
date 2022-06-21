@@ -10,68 +10,50 @@ const WorkSection = () => {
 
     useEffect(() => {
         const element = ref.current;
-        gsap.fromTo(
-            element.querySelector('.table-1'),
-            {
-                yPercent: 200,
-                opacity: 0,
+        const fromVars = {
+            yPercent: 500,
+            opacity: 0,
+        };
+        const toVars = {
+            yPercent: 0,
+            opacity: 1,
+            ease: Circ.easeOut,
+            scrollTrigger: {
+                trigger: element.querySelector('.work-row'),
+                scrub: true,
+                markers: true,
             },
-            {
-                yPercent: 0,
-                opacity: 1,
-                ease: Circ.easeOut,
-                scrollTrigger: {
-                    trigger: element.querySelector('.work-row'),
-                    start: 'top bottom',
-                    end: 'top 25%',
-                    scrub: true,
-                    markers: true,
-                },
-            }
-        );
-        gsap.fromTo(
-            element.querySelector('.table-2'),
-            {
-                yPercent: 200,
-                opacity: 0,
+        };
+
+        gsap.fromTo(element.querySelector('.table-1'), fromVars, {
+            ...toVars,
+            scrollTrigger: {
+                ...toVars.scrollTrigger,
+                start: 'top bottom',
+                end: 'top 25%',
             },
-            {
-                yPercent: 0,
-                opacity: 1,
-                ease: Circ.easeOut,
-                scrollTrigger: {
-                    trigger: element.querySelector('.work-row'),
-                    start: '25% bottom',
-                    end: '25% 25%',
-                    scrub: true,
-                    markers: true,
-                },
-            }
-        );
-        gsap.fromTo(
-            element.querySelector('.table-3'),
-            {
-                yPercent: 200,
-                opacity: 0,
+        });
+        gsap.fromTo(element.querySelector('.table-2'), fromVars, {
+            ...toVars,
+            scrollTrigger: {
+                ...toVars.scrollTrigger,
+                start: '25% bottom',
+                end: '25% 25%',
             },
-            {
-                yPercent: 0,
-                opacity: 1,
-                ease: Circ.easeOut,
-                scrollTrigger: {
-                    trigger: element.querySelector('.work-row'),
-                    start: '50% bottom',
-                    end: '50% 25%',
-                    scrub: true,
-                    markers: true,
-                },
-            }
-        );
+        });
+        gsap.fromTo(element.querySelector('.table-3'), fromVars, {
+            ...toVars,
+            scrollTrigger: {
+                ...toVars.scrollTrigger,
+                start: '50% bottom',
+                end: '50% 25%',
+            },
+        });
     }, []);
 
     return (
         <div ref={ref}>
-            <div className="row vh-120 work-row">
+            <div className="row vh-100 work-row">
                 <div className="col-md-4 offset-md-2 col-lg-2 offset-lg-3">
                     <h2 className="big-title mt-10">An Established Brand</h2>
                     <p className="display-text">

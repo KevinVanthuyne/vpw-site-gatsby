@@ -1,6 +1,6 @@
 $carousel-item-width: 60%;
-$carousel-item-spacing-hor: 100px;
-$carousel-item-spacing-vert: 100px;
+$carousel-item-spacing-hor: 5vw;
+$carousel-item-spacing-vert: 5vw;
 $item-amount: 3;
 
 .table-container {
@@ -12,8 +12,6 @@ $item-amount: 3;
 .table {
     width: 60%;
     position: absolute;
-    //width: $carousel-item-width;
-    //height: $carousel-item-width * 1.78;
 
     @for $i from 1 through $item-amount {
         &:nth-child(#{$i}) {
