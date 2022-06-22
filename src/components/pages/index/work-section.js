@@ -21,7 +21,7 @@ const WorkSection = () => {
             scrollTrigger: {
                 trigger: element.querySelector('.work-row'),
                 scrub: true,
-                markers: true,
+                // markers: true,
             },
         };
 

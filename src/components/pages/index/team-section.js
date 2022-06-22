@@ -23,7 +23,7 @@ const TeamSection = () => {
                     start: 'top bottom',
                     end: 'bottom top',
                     scrub: true,
-                    markers: true,
+                    // markers: true,
                 },
             }
         );
@@ -39,7 +39,7 @@ const TeamSection = () => {
                     start: 'top bottom',
                     end: 'bottom top',
                     scrub: true,
-                    markers: true,
+                    // markers: true,
                 },
             }
         );

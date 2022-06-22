@@ -28,7 +28,7 @@ const MissionSection = () => {
                     start: 'top bottom',
                     end: 'top 25%',
                     scrub: true,
-                    markers: true,
+                    // markers: true,
                 },
             }
         );
