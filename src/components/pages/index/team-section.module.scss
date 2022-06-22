@@ -1,0 +1,16 @@
+@use '/src/styles/variables' as var;
+
+.infinite-scroll-container {
+    width: 100vw;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.infinite-scroll-content {
+    white-space: nowrap;
+    font-size: 4rem;
+    font-weight: lighter;
+    color: var.$vpw-darker-blue;
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+}

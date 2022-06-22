@@ -55,7 +55,7 @@ const WorkSection = () => {
         <div ref={ref}>
             <div className="row vh-100 work-row">
                 <div className="col-md-4 offset-md-2 col-lg-2 offset-lg-3">
-                    <h2 className="big-title mt-10">An Established Brand</h2>
+                    <h2 className="big-title mt-5">An Established Brand</h2>
                     <p className="display-text">
                         With over 30 released tables and even more
                         work-in-progress ones, the VPW team is an established
