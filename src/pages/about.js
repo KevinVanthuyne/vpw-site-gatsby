@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 
 const AboutPage = () => (
     <Layout pageTitle="About">
-        <div className="row">
+        <div className="row mb-5">
             <div className="col-md-4 offset-md-1 col-lg-2 offset-lg-2">
                 <h2 className="big-title mt-10">The Workshop</h2>
             </div>

@@ -53,8 +53,8 @@ const WorkSection = () => {
 
     return (
         <div ref={ref}>
-            <div className="row vh-100 work-row">
-                <div className="col-md-5 offset-md-1">
+            <div className="row vh-100 work-row mb-20">
+                <div className="col-md-6 offset-md-1">
                     <div className={styles.tableContainer}>
                         <StaticImage
                             src="../../../images/tables/tftc.jpg"

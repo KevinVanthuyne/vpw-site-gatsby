@@ -3,12 +3,13 @@ import Layout from '../components/layout';
 
 const WorkPage = () => (
     <Layout pageTitle="Work">
-        <div className="row mt-10">
+        <div className="row mt-10 mb-5">
             <div className="col-md-3 offset-md-1">
                 <h2 className="big-title">Our Work</h2>
                 <p className="display-text">An anthology of our releases.</p>
                 <p className="display-text">
-                    For the current overview of all release, take a look at the{' '}
+                    For the current overview of all our pinball tables, take a
+                    look at the{' '}
                     <a
                         href="https://vpuniverse.com/profile/40692-vpinworkshop/"
                         target="_blank"
