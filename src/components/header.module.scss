@@ -11,4 +11,8 @@
     font-weight: bold !important;
     padding-left: 2em !important;
     padding-right: 2em !important;
+
+    &:hover {
+        color: var.$vpw-beige-opaque !important;
+    }
 }
