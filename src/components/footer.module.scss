@@ -2,4 +2,13 @@
 
 .footer {
     background-color: var.$vpw-darker-blue;
+    color: var.$vpw-beige-opaque;
+
+    a {
+        color: var.$vpw-beige-opaque !important;
+
+        &:hover {
+            color: var.$vpw-beige !important;
+        }
+    }
 }
