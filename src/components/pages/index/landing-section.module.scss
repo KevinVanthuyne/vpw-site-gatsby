@@ -1,16 +1,28 @@
 @use './src/styles/variables' as var;
 
 .background-overlay {
-  background: linear-gradient(transparent 80%, var.$vpw-dark-blue);
+    background: linear-gradient(transparent 80%, var.$vpw-dark-blue);
 }
 
 .background {
-  background-image: url('../../../images/lotr-bw.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: var.$vpw-dark-blue-opaque;
-  background-blend-mode: soft-light;
-  //box-shadow: 0 0 0 12px var.$vpw-red-opaque inset;
-  z-index: -1;
+    background-image: url('../../../images/lotr-bw.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var.$vpw-dark-blue-opaque;
+    background-blend-mode: soft-light;
+    //box-shadow: 0 0 0 12px var.$vpw-red-opaque inset;
+    z-index: -1;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center-image {
+    position: absolute;
+    width: 50%;
 }
