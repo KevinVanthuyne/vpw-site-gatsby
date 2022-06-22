@@ -46,7 +46,7 @@ const TeamSection = () => {
     }, []);
 
     return (
-        <div className="vh-100" ref={ref}>
+        <div ref={ref}>
             <div className="row mt-10 team-row">
                 <div className={styles.infiniteScrollContainer}>
                     <div

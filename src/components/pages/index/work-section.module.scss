@@ -1,6 +1,6 @@
 $carousel-item-width: 60%;
 $carousel-item-spacing-hor: 5vw;
-$carousel-item-spacing-vert: 5vw;
+$carousel-item-spacing-vert: 12vw;
 $item-amount: 3;
 
 .table-container {
@@ -17,7 +17,7 @@ $item-amount: 3;
         &:nth-child(#{$i}) {
             z-index: $i;
             left: ($i - 1) * $carousel-item-spacing-hor;
-            top: $i * $carousel-item-spacing-vert;
+            top: ($i - 1) * $carousel-item-spacing-vert;
         }
     }
 }

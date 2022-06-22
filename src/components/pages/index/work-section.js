@@ -11,12 +11,12 @@ const WorkSection = () => {
     useEffect(() => {
         const element = ref.current;
         const fromVars = {
-            yPercent: 500,
-            opacity: 0,
+            yPercent: 250,
+            // opacity: 0,
         };
         const toVars = {
             yPercent: 0,
-            opacity: 1,
+            // opacity: 1,
             ease: Circ.easeOut,
             scrollTrigger: {
                 trigger: element.querySelector('.work-row'),
@@ -54,17 +54,7 @@ const WorkSection = () => {
     return (
         <div ref={ref}>
             <div className="row vh-100 work-row">
-                <div className="col-md-4 offset-md-2 col-lg-2 offset-lg-3">
-                    <h2 className="big-title mt-5">An Established Brand</h2>
-                    <p className="display-text">
-                        With over 30 released tables and even more
-                        work-in-progress ones, the VPW team is an established
-                        brand in VPin world.
-                    </p>
-                    <DisplayButton link="/">Discover our work →</DisplayButton>
-                </div>
-
-                <div className="col-md-5 offset-md-1 mt-5">
+                <div className="col-md-5 offset-md-1">
                     <div className={styles.tableContainer}>
                         <StaticImage
                             src="../../../images/tables/tftc.jpg"
@@ -85,6 +75,15 @@ const WorkSection = () => {
                             className={styles.table + ' table-3'}
                         />
                     </div>
+                </div>
+                <div className="col-md-4 offset-md-1 col-lg-2">
+                    <h2 className="big-title mt-20">An Established Brand</h2>
+                    <p className="display-text">
+                        With over 30 released tables and even more
+                        work-in-progress ones, the VPW team is an established
+                        brand in VPin world.
+                    </p>
+                    <DisplayButton link="/">Discover our work →</DisplayButton>
                 </div>
             </div>
         </div>
