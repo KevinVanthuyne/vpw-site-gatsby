@@ -21,7 +21,7 @@ const WorkSection = () => {
             scrollTrigger: {
                 trigger: element.querySelector('.work-row'),
                 scrub: true,
-                // markers: true,
+                markers: true,
             },
         };
 
@@ -30,7 +30,7 @@ const WorkSection = () => {
             scrollTrigger: {
                 ...toVars.scrollTrigger,
                 start: 'top bottom',
-                end: 'top 25%',
+                end: 'top 50%',
             },
         });
         gsap.fromTo(element.querySelector('.table-2'), fromVars, {
@@ -38,7 +38,8 @@ const WorkSection = () => {
             scrollTrigger: {
                 ...toVars.scrollTrigger,
                 start: '25% bottom',
-                end: '25% 25%',
+                end: '25% 50%',
+                // end: '25% 25%',
             },
         });
         gsap.fromTo(element.querySelector('.table-3'), fromVars, {
@@ -46,15 +47,16 @@ const WorkSection = () => {
             scrollTrigger: {
                 ...toVars.scrollTrigger,
                 start: '50% bottom',
-                end: '50% 25%',
+                end: '50% 50%',
+                // end: '50% 25%',
             },
         });
     }, []);
 
     return (
         <div ref={ref}>
-            <div className="row vh-100 work-row mb-20">
-                <div className="col-md-6 offset-md-1">
+            <div className="row vh-md-100 work-row mt-10 mt-md-20">
+                <div className="col col-md-6 col-lg-5 col-xl-4 offset-md-1 offset-lg-2 vh-70">
                     <div className={styles.tableContainer}>
                         <StaticImage
                             src="../../../images/tables/tftc.jpg"
@@ -63,7 +65,7 @@ const WorkSection = () => {
                             className={styles.table + ' table-1'}
                         />
                         <StaticImage
-                            src="../../../images/tables/lotr.png"
+                            src="../../../images/tables/lotr.jpg"
                             alt="Tales From the Crypt screenshot"
                             layout="fullWidth"
                             className={styles.table + ' table-2'}
@@ -76,8 +78,8 @@ const WorkSection = () => {
                         />
                     </div>
                 </div>
-                <div className="col-md-4 offset-md-1 col-lg-2">
-                    <h2 className="big-title mt-20">An Established Brand</h2>
+                <div className="vh-100 col-md-4 col-lg-2 offset-md-1 offset-lg-2">
+                    <h2 className="big-title mt-10">An Established Brand</h2>
                     <p className="display-text">
                         With over 30 released tables and even more
                         work-in-progress ones, the VPW team is an established

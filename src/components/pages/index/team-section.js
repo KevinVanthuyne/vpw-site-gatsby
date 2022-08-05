@@ -69,7 +69,7 @@ const TeamSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="row mt-5">
+            <div className="row mt-5 mb-5 mb-md-0">
                 <div className="col-md-5 offset-md-2">
                     <h2 className="big-title">A Dedicated Team</h2>
                 </div>
