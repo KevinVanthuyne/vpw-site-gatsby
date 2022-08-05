@@ -6,7 +6,7 @@ const Layout = ({ pageTitle, children }) => (
     <div>
         <Header />
 
-        <div className="container-fluid">
+        <div className="container-fluid overflow-hidden">
             <main>
                 <h1 className="d-none">{pageTitle}</h1>
                 {children}
