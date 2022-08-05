@@ -1,5 +1,9 @@
 @use './src/styles/variables' as var;
 
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/variables';
+
 .background-overlay {
     background: linear-gradient(transparent 80%, var.$vpw-dark-blue);
 }
@@ -24,5 +28,11 @@
 
 .center-image {
     position: absolute;
-    width: 50%;
+    width: 75%;
+}
+
+@include media-breakpoint-up(md) {
+    .center-image {
+        width: 50%;
+    }
 }
