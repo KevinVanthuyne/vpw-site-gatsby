@@ -30,7 +30,7 @@ const MissionSection = () => {
                     start: 'top bottom',
                     end: 'top 25%',
                     scrub: true,
-                    markers: true,
+                    // markers: true,
                 },
             }
         );
@@ -38,7 +38,7 @@ const MissionSection = () => {
 
     return (
         <div ref={ref}>
-            <div className="row vh-100 mission-row">
+            <div className="row vh-md-100 mission-row">
                 <div className="order-md-last col-md-6 col-lg-5 col-xl-5 offset-xl-1 col-xxl-4">
                     <StaticImage
                         src="../../../images/bm_side_view.png"
