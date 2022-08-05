@@ -12,6 +12,11 @@ a {
     color: var.$vpw-logo-blue !important;
 }
 
+em {
+    color: var.$vpw-logo-blue;
+    font-style: normal;
+}
+
 .big-title {
     text-transform: uppercase;
     font-size: 4rem;
@@ -19,7 +24,7 @@ a {
 }
 
 .beige-text {
-    color: var.$vpw-beige-opaque;
+    color: var.$vpw-beige-opaque-text;
 }
 
 .display-text {
