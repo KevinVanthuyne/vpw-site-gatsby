@@ -66,13 +66,13 @@ const WorkSection = () => {
                         />
                         <StaticImage
                             src="../../../images/tables/lotr.jpg"
-                            alt="Tales From the Crypt screenshot"
+                            alt="Lord of the Rings screenshot"
                             layout="fullWidth"
                             className={styles.table + ' table-2'}
                         />
                         <StaticImage
                             src="../../../images/tables/bm.jpg"
-                            alt="Tales From the Crypt screenshot"
+                            alt="Bloodmachines screenshot"
                             layout="fullWidth"
                             className={styles.table + ' table-3'}
                         />
