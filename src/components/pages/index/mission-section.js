@@ -52,14 +52,12 @@ const MissionSection = () => {
                     <h2 className="big-title mt-md-10">
                         The Future of Virtual Pinball
                     </h2>
-                    <p className="display-text mission-animation-trigger-mobile">
+                    <p className="display-text my-4">
                         We strive towards <span className="beige-text">re</span>
                         creating the best virtual versions of pinball tables
                         that Virtual Pinball can offer.
                     </p>
-                    <DisplayButton link="/" className="">
-                        Our mission →
-                    </DisplayButton>
+                    <DisplayButton link="/">Our mission →</DisplayButton>
                 </div>
             </div>
             <div className="mission-row-end" />
