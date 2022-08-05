@@ -3,14 +3,14 @@
 .display-button {
     display: inline-block;
     text-align: center;
-    border: 1px solid var.$vpw-beige-opaque;
+    border: 2px solid var.$vpw-beige-opaque;
     color: var.$vpw-beige !important;
     padding: 2em;
     text-decoration: none;
 
     &:hover {
         background-color: var.$vpw-red-opaque;
-        color: var.$vpw-dark-blue;
+        color: var.$vpw-dark-blue !important;
         border: 1px solid var.$vpw-dark-blue;
     }
 }
