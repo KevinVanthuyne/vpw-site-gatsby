@@ -43,7 +43,7 @@ const MissionSection = () => {
                     </h2>
                     <p className="display-text">
                         We strive towards <span className="beige-text">re</span>
-                        creating the best virtual versions of pinball tables
+                        creating the best digital versions of pinball tables
                         that Virtual Pinball can offer.
                     </p>
                     <DisplayButton link="/">Our mission →</DisplayButton>
