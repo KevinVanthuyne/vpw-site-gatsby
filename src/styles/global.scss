@@ -10,6 +10,10 @@ body {
 
 a {
     color: var.$vpw-logo-blue !important;
+
+    &:hover {
+        color: var.$vpw-red-opaque !important;
+    }
 }
 
 em {
