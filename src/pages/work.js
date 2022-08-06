@@ -1,7 +1,6 @@
 import * as React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
 import Layout from '../components/layout';
-import TableItem from '../components/table-item';
+import { GatsbyImage, StaticImage } from 'gatsby-plugin-image';
 
 const WorkPage = ({ data }) => (
     <Layout pageTitle="Work">
@@ -23,35 +22,21 @@ const WorkPage = ({ data }) => (
                 </p>
             </div>
 
-            {data.allFile.nodes.map((node) => (
-                <div className="col-md-2 offset-md-1">
-                    <TableItem
-                        link="https://vpuniverse.com/files/file/6933-tales-from-the-crypt-vpw-premium-data-east-1993/"
-                        alt="Tales From the Crypt screenshot"
-                        img={node.childImageSharp.gatsbyImageData}
+            <div className="col-md-2 offset-md-1">
+                <a
+                    href="https://vpuniverse.com/files/file/6933-tales-from-the-crypt-vpw-premium-data-east-1993/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <StaticImage
+                        src="../images/tables/tftc.jpg"
+                        alt="Top-down view of Tales From The Crypt"
+                        layout="fullWidth"
                     />
-                </div>
-            ))}
+                </a>
+            </div>
         </div>
     </Layout>
 );
-
-export const query = graphql`
-    query {
-        allFile(
-            filter: {
-                sourceInstanceName: { eq: "images" }
-                relativeDirectory: { eq: "tables" }
-            }
-        ) {
-            nodes {
-                name
-                childImageSharp {
-                    gatsbyImageData
-                }
-            }
-        }
-    }
-`;
 
 export default WorkPage;
