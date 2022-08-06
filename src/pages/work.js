@@ -7,7 +7,7 @@ import 'swiper/scss';
 import 'swiper/scss/effect-coverflow';
 import 'swiper/scss/pagination';
 
-import { EffectCoverflow, Pagination, Mousewheel, Keyboard } from 'swiper';
+import { EffectCoverflow, Pagination, Keyboard } from 'swiper';
 import MediaQueryUtil from '../util/media-query-util';
 
 const WorkPage = () => (
@@ -33,6 +33,9 @@ const WorkPage = () => (
         <div className="row mb-5">
             <div className="col gx-0">
                 <Swiper
+                    keyboard={{
+                        enabled: true,
+                    }}
                     effect={'coverflow'}
                     grabCursor={true}
                     centeredSlides={true}
@@ -45,12 +48,7 @@ const WorkPage = () => (
                         slideShadows: true,
                     }}
                     pagination={true}
-                    modules={[
-                        EffectCoverflow,
-                        Pagination,
-                        Keyboard,
-                        Mousewheel,
-                    ]}
+                    modules={[EffectCoverflow, Pagination, Keyboard]}
                     slidesPerView={1.3}
                     spaceBetween={15}
                     loop={true}
