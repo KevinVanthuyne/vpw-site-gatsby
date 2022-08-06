@@ -69,19 +69,6 @@ const WorkPage = () => (
                 >
                     <SwiperSlide>
                         <a
-                            href="https://vpuniverse.com/files/file/6933-tales-from-the-crypt-vpw-premium-data-east-1993/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <StaticImage
-                                src="../images/tables/tftc.jpg"
-                                alt="Top-down view of Tales From The Crypt"
-                                layout="fullWidth"
-                            />
-                        </a>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <a
                             href="https://vpuniverse.com/files/file/9847-blood-machines-vpw-original-2022/"
                             target="_blank"
                             rel="noreferrer"
@@ -102,6 +89,84 @@ const WorkPage = () => (
                             <StaticImage
                                 src="../images/tables/lotr.jpg"
                                 alt="Top-down view of Lord of the Rings"
+                                layout="fullWidth"
+                            />
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <a
+                            href="https://vpuniverse.com/files/file/8568-indiana-jones-the-pinball-adventure-williams-1993-vpwmod/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <StaticImage
+                                src="../images/tables/ij.jpg"
+                                alt="Top-down view of Indiana Jones"
+                                layout="fullWidth"
+                            />
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <a
+                            href="https://vpuniverse.com/files/file/9091-monster-bash-williams-1998-vpwmod/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <StaticImage
+                                src="../images/tables/mb.jpg"
+                                alt="Top-down view of Monster Bash"
+                                layout="fullWidth"
+                            />
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <a
+                            href="https://vpuniverse.com/files/file/6530-spider-man-vault-edition-siggis-mod-stern-2016-vpw-mod/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <StaticImage
+                                src="../images/tables/sm.jpg"
+                                alt="Top-down view of Spider-Man"
+                                layout="fullWidth"
+                            />
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <a
+                            href="https://vpuniverse.com/files/file/6267-cactus-canyon-continued-bally-1998-vpw-mod/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <StaticImage
+                                src="../images/tables/cc.jpg"
+                                alt="Top-down view of Cactus Canyon"
+                                layout="fullWidth"
+                            />
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <a
+                            href="https://vpuniverse.com/files/file/6058-metallica-premium-monsters-stern-2013-vpw-mod/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <StaticImage
+                                src="../images/tables/mtl.jpg"
+                                alt="Top-down view of Stern's Metallica"
+                                layout="fullWidth"
+                            />
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <a
+                            href="https://vpuniverse.com/files/file/10383-simpsons-pinball-party-stern-2003-vpw-mod/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <StaticImage
+                                src="../images/tables/tspp.jpg"
+                                alt="Top-down view of The Simpsons: Pinball Party"
                                 layout="fullWidth"
                             />
                         </a>

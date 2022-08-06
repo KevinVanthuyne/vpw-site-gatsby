@@ -60,8 +60,8 @@ const WorkSection = () => {
                     <div className={styles.tableContainer}>
                         <div className={styles.table + ' table-1'}>
                             <StaticImage
-                                src="../../../images/tables/tftc.jpg"
-                                alt="Tales From the Crypt screenshot"
+                                src="../../../images/tables/mtl.jpg"
+                                alt="Stern's Metallica screenshot"
                                 layout="fullWidth"
                             />
                         </div>
