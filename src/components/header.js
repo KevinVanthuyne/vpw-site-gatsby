@@ -5,7 +5,7 @@ import * as styles from './header.module.scss';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 
 const Header = () => (
-    <Navbar expand="lg" fixed="top">
+    <Navbar expand="md" fixed="top" variant="dark">
         <Container fluid>
             <Navbar.Brand>
                 <Link to="/">
@@ -20,7 +20,7 @@ const Header = () => (
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
             <Navbar.Collapse id="basic-navbar-nav">
-                <span className="flex-grow-1" />
+                <span className="flex-md-grow-1" />
                 <Nav>
                     <Nav.Link href="/" className={styles.navLink}>
                         Home

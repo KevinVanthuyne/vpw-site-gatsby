@@ -21,6 +21,10 @@ em {
     font-style: normal;
 }
 
+.navbar-toggler {
+    border-color: var.$vpw-beige-opaque-text !important;
+}
+
 .big-title {
     text-transform: uppercase;
     font-size: 4rem;
@@ -71,6 +75,25 @@ em {
 
 .mt-md-20 {
     margin-top: 0;
+}
+
+@include media-breakpoint-down(md) {
+    .navbar-collapse {
+        transition: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background-color: var.$vpw-dark-blue-opaque;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        line-height: 3em;
+    }
 }
 
 @include media-breakpoint-up(md) {
