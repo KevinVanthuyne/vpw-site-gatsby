@@ -88,7 +88,9 @@ const WorkSection = () => {
                         work-in-progress ones, the VPW team is an established
                         brand in VPin world.
                     </p>
-                    <DisplayButton link="/">Discover our work →</DisplayButton>
+                    <DisplayButton link="/work">
+                        Discover our work →
+                    </DisplayButton>
                 </div>
             </div>
         </div>

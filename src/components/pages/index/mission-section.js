@@ -56,7 +56,7 @@ const MissionSection = () => {
                         creating the best virtual versions of pinball tables
                         that Virtual Pinball can offer.
                     </p>
-                    <DisplayButton link="/">Our mission →</DisplayButton>
+                    <DisplayButton link="/about">About us →</DisplayButton>
                 </div>
             </div>
             <div className="mission-row-end" />
