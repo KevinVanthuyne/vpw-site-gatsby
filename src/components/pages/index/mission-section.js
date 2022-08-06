@@ -5,7 +5,6 @@ import { StaticImage } from 'gatsby-plugin-image';
 import DisplayButton from '../../display-button';
 import { Circ, gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import MediaQueryUtil from '../../../util/media-query-util';
 
 const MissionSection = () => {
     gsap.registerPlugin(ScrollTrigger);

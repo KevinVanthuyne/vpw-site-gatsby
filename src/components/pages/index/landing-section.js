@@ -65,16 +65,20 @@ const LandingSection = () => {
                         // ' offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-lg-3 col-lg-6'
                     }
                 >
-                    <StaticImage
-                        src="../../../images/vpw-logo-without-pinball.png"
-                        alt="VPW logo without the pinball"
-                        className={styles.centerImage + ' img-fluid vpw-logo'}
-                    />
-                    <StaticImage
-                        src="../../../images/vpw-logo-pinball.png"
-                        alt="Globe and pinball combination of the VPW logo"
+                    <div className={styles.centerImage + ' img-fluid vpw-logo'}>
+                        <StaticImage
+                            src="../../../images/vpw-logo-without-pinball.png"
+                            alt="VPW logo without the pinball"
+                        />
+                    </div>
+                    <div
                         className={styles.centerImage + ' img-fluid vpw-logo-2'}
-                    />
+                    >
+                        <StaticImage
+                            src="../../../images/vpw-logo-pinball.png"
+                            alt="Globe and pinball combination of the VPW logo"
+                        />
+                    </div>
                 </div>
             </div>
         </div>

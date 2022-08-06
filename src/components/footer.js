@@ -9,7 +9,7 @@ const Footer = () => (
             </div>
             <div className="offset-md-6 col-md-3 text-center text-md-end">
                 By{' '}
-                <a target="_blank" rel="noopener" href="https://kevinvt.com">
+                <a target="_blank" rel="noreferrer" href="https://kevinvt.com">
                     kevinvt.com
                 </a>
             </div>

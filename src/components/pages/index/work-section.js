@@ -58,24 +58,27 @@ const WorkSection = () => {
             <div className="row vh-md-100 work-row mt-10 mt-md-20">
                 <div className="col col-md-6 col-lg-5 col-xl-4 offset-md-1 offset-lg-2 vh-70">
                     <div className={styles.tableContainer}>
-                        <StaticImage
-                            src="../../../images/tables/tftc.jpg"
-                            alt="Tales From the Crypt screenshot"
-                            layout="fullWidth"
-                            className={styles.table + ' table-1'}
-                        />
-                        <StaticImage
-                            src="../../../images/tables/lotr.jpg"
-                            alt="Lord of the Rings screenshot"
-                            layout="fullWidth"
-                            className={styles.table + ' table-2'}
-                        />
-                        <StaticImage
-                            src="../../../images/tables/bm.jpg"
-                            alt="Bloodmachines screenshot"
-                            layout="fullWidth"
-                            className={styles.table + ' table-3'}
-                        />
+                        <div className={styles.table + ' table-1'}>
+                            <StaticImage
+                                src="../../../images/tables/tftc.jpg"
+                                alt="Tales From the Crypt screenshot"
+                                layout="fullWidth"
+                            />
+                        </div>
+                        <div className={styles.table + ' table-2'}>
+                            <StaticImage
+                                src="../../../images/tables/lotr.jpg"
+                                alt="Lord of the Rings screenshot"
+                                layout="fullWidth"
+                            />
+                        </div>
+                        <div className={styles.table + ' table-3'}>
+                            <StaticImage
+                                src="../../../images/tables/bm.jpg"
+                                alt="Blood Machines screenshot"
+                                layout="fullWidth"
+                            />
+                        </div>
                     </div>
                 </div>
                 <div className="vh-100 col-md-4 col-lg-2 offset-md-1 offset-lg-2">
