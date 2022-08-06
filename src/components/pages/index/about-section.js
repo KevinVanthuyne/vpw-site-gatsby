@@ -6,7 +6,7 @@ import DisplayButton from '../../display-button';
 import { Circ, gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-const MissionSection = () => {
+const AboutSection = () => {
     gsap.registerPlugin(ScrollTrigger);
 
     const ref = useRef(null);
@@ -64,4 +64,4 @@ const MissionSection = () => {
     );
 };
 
-export default MissionSection;
+export default AboutSection;
