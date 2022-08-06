@@ -12,7 +12,7 @@ import MediaQueryUtil from '../util/media-query-util';
 
 const WorkPage = () => (
     <Layout pageTitle="Work">
-        <div className="row mt-10 mb-5">
+        <div className="row mt-10">
             <div className="col-md-3 offset-md-1">
                 <h2 className="big-title">Our Work</h2>
                 <p className="display-text">An anthology of our releases.</p>
@@ -30,7 +30,7 @@ const WorkPage = () => (
                 </p>
             </div>
         </div>
-        <div className="row mb-5">
+        <div className="row mt-5 mb-5">
             <div className="col gx-0">
                 <Swiper
                     keyboard={{

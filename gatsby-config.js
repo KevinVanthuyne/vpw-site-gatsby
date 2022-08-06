@@ -6,9 +6,16 @@ module.exports = {
     plugins: [
         'gatsby-plugin-image',
         'gatsby-plugin-react-helmet',
-        'gatsby-plugin-sharp',
         'gatsby-transformer-sharp',
         'gatsby-plugin-sass',
+        {
+            resolve: 'gatsby-plugin-sharp',
+            options: {
+                defaults: {
+                    placeholder: 'blurred',
+                },
+            },
+        },
         {
             resolve: 'gatsby-source-filesystem',
             options: {
