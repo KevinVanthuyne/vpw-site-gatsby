@@ -39,7 +39,6 @@ const WorkSection = () => {
                 ...toVars.scrollTrigger,
                 start: '25% bottom',
                 end: '25% 50%',
-                // end: '25% 25%',
             },
         });
         gsap.fromTo(element.querySelector('.table-3'), fromVars, {
@@ -48,7 +47,6 @@ const WorkSection = () => {
                 ...toVars.scrollTrigger,
                 start: '50% bottom',
                 end: '50% 50%',
-                // end: '50% 25%',
             },
         });
     }, []);
