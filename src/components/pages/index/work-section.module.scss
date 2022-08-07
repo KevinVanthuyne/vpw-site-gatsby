@@ -9,6 +9,11 @@ $item-amount: 3;
     height: 100%;
 }
 
+.table-placeholder {
+    visibility: hidden;
+    width: 80%;
+}
+
 .table {
     width: 60%;
     position: absolute;

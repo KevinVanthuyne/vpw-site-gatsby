@@ -56,6 +56,10 @@ em {
     height: 120vh;
 }
 
+.vh-min-md-75 {
+    min-height: auto;
+}
+
 .vh-md-100 {
     height: auto;
 }
@@ -68,6 +72,10 @@ em {
     margin-top: 20rem;
 }
 
+.mb-10 {
+    margin-bottom: 10rem;
+}
+
 .mb-20 {
     margin-bottom: 20rem;
 }
@@ -78,6 +86,10 @@ em {
 
 .mt-md-20 {
     margin-top: 0;
+}
+
+.mb-md-10 {
+    margin-bottom: 0;
 }
 
 @include media-breakpoint-down(md) {
@@ -100,6 +112,10 @@ em {
 }
 
 @include media-breakpoint-up(md) {
+    .vh-min-md-75 {
+        min-height: 80vh;
+    }
+
     .vh-md-100 {
         height: 100vh !important;
     }
@@ -109,6 +125,10 @@ em {
     }
 
     .mt-md-20 {
-        margin-top: 20rem;
+        margin-top: 20rem !important;
+    }
+
+    .mb-md-10 {
+        margin-bottom: 10rem !important;
     }
 }

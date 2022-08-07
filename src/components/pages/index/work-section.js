@@ -55,8 +55,8 @@ const WorkSection = () => {
 
     return (
         <div ref={ref}>
-            <div className="row vh-md-100 work-row mt-10 mt-md-20">
-                <div className="col col-md-6 col-lg-5 col-xl-4 offset-md-1 offset-lg-2 vh-70">
+            <div className="row vh-min-md-75 work-row mt-10 mt-md-20">
+                <div className="col mb-5 mb-md-10 col-md-6 col-lg-5 col-xl-4 offset-md-1 offset-lg-2">
                     <div className={styles.tableContainer}>
                         <div className={styles.table + ' table-1'}>
                             <StaticImage
@@ -79,9 +79,16 @@ const WorkSection = () => {
                                 layout="fullWidth"
                             />
                         </div>
+                        <div className={styles.tablePlaceholder}>
+                            <StaticImage
+                                src="../../../images/tables/mtl.jpg"
+                                alt="Stern's Metallica screenshot"
+                                layout="fullWidth"
+                            />
+                        </div>
                     </div>
                 </div>
-                <div className="vh-100 col-md-4 col-lg-2 offset-md-1 offset-lg-2">
+                <div className="mb-10 col-md-4 col-lg-2 offset-md-1 offset-lg-2">
                     <h2 className="big-title mt-10">An Established Brand</h2>
                     <p className="display-text my-4">
                         With over 30 released tables and even more
