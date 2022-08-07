@@ -31,6 +31,14 @@ const Header = () => (
                     <Nav.Link href="/work" className={styles.navLink}>
                         Work
                     </Nav.Link>
+                    <Nav.Link
+                        href="https://vpin-workshop.creator-spring.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className={styles.navLink}
+                    >
+                        Merch
+                    </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>
