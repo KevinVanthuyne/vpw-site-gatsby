@@ -1,6 +1,9 @@
 @use '/src/styles/variables' as var;
 
+$enable-smooth-scroll: false;
+
 @import '~bootstrap/scss/bootstrap';
+
 
 body {
     background-color: var.$vpw-dark-blue !important;
