@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: `VPW Site`,
-        siteUrl: `https://www.yourdomain.tld`,
+        title: 'VPW Site',
+        siteUrl: 'http://www.vpinworkshop.com',
     },
     plugins: [
         'gatsby-plugin-image',
@@ -24,6 +24,18 @@ module.exports = {
                 path: './src/images/',
             },
             __key: 'images',
+        },
+        {
+            resolve: 'gatsby-plugin-manifest',
+            options: {
+                name: 'VPin Workshop',
+                short_name: 'VPW',
+                start_url: '/',
+                background_color: '#082c4c',
+                theme_color: '#062037',
+                display: 'browser',
+                icon: `src/images/vpw-icon-solo.png`,
+            },
         },
     ],
 };
