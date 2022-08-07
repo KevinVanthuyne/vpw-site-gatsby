@@ -8,6 +8,7 @@ module.exports = {
         'gatsby-plugin-react-helmet',
         'gatsby-transformer-sharp',
         'gatsby-plugin-sass',
+        'gatsby-plugin-web-font-loader',
         {
             resolve: 'gatsby-plugin-sharp',
             options: {
@@ -23,14 +24,6 @@ module.exports = {
                 path: './src/images/',
             },
             __key: 'images',
-        },
-        {
-            resolve: 'gatsby-plugin-web-font-loader',
-            options: {
-                google: {
-                    families: ['Karla', 'Anton'],
-                },
-            },
         },
     ],
 };

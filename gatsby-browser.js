@@ -1,3 +1,6 @@
+import '@fontsource/anton/400.css';
+import '@fontsource/karla/400.css';
+
 import './src/styles/global.scss';
 
 // Always start at the top of the page on a route change.
