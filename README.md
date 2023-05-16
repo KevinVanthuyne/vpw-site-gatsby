@@ -1,4 +1,4 @@
-# VPW Site 
+# VPW Site
 
 ## Setup
 
@@ -7,3 +7,7 @@
 - Install dependencies: `npm install`
 
 Run `gatsby develop` for a development server. The website will be available at http://localhost:8000
+
+## Build
+
+Run `gatsby build` to build the application. The result can be found in the `public` folder.
