@@ -89,7 +89,7 @@ const WorkSection = () => {
                 <div className="mb-10 col-md-4 col-lg-2 offset-md-1 offset-lg-2">
                     <h2 className="big-title mt-10">An Established Brand</h2>
                     <p className="display-text my-4">
-                        With over 30 released tables and even more
+                        With over 40 released tables and even more
                         work-in-progress ones, the VPW team is an established
                         brand in VPin world.
                     </p>
@@ -102,4 +102,4 @@ const WorkSection = () => {
     );
 };
 
-export default WorkSection;
+export default WorkSection
