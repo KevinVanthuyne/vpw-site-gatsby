@@ -7,7 +7,7 @@ import 'swiper/scss';
 import 'swiper/scss/effect-coverflow';
 import 'swiper/scss/pagination';
 
-import { EffectCoverflow, Pagination, Keyboard } from 'swiper';
+import { EffectCoverflow, Keyboard, Pagination } from 'swiper';
 import MediaQueryUtil from '../util/media-query-util';
 
 const WorkPage = () => (
@@ -20,7 +20,7 @@ const WorkPage = () => (
                     For the current overview of all our pinball tables, take a
                     look at the{' '}
                     <a
-                        href="https://vpuniverse.com/profile/40692-vpinworkshop/"
+                        href="https://vpuniverse.com/profile/40692-vpinworkshop/?tab=node_filestabprofile_filesTab"
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -177,4 +177,4 @@ const WorkPage = () => (
     </Layout>
 );
 
-export default WorkPage;
+export default WorkPage
