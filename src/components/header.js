@@ -21,7 +21,7 @@ const Header = () => (
 
             <Navbar.Collapse id="basic-navbar-nav">
                 <span className="flex-md-grow-1" />
-                <Nav>
+                <Nav className="text-center text-md-start">
                     <Nav.Link href="/" className={styles.navLink}>
                         Home
                     </Nav.Link>
@@ -30,6 +30,14 @@ const Header = () => (
                     </Nav.Link>
                     <Nav.Link href="/work" className={styles.navLink}>
                         Work
+                    </Nav.Link>
+                    <Nav.Link
+                        href="https://www.youtube.com/@vpinworkshop"
+                        target="_blank"
+                        rel="noreferrer"
+                        className={styles.navLink}
+                    >
+                        YouTube
                     </Nav.Link>
                     <Nav.Link
                         href="https://vpin-workshop.creator-spring.com/"

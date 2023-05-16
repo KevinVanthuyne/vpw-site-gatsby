@@ -177,4 +177,4 @@ const WorkPage = () => (
     </Layout>
 );
 
-export default WorkPage
+export default WorkPage;
