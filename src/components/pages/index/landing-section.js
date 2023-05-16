@@ -69,6 +69,7 @@ const LandingSection = () => {
                         <StaticImage
                             src="../../../images/vpw-logo-without-pinball.png"
                             alt="VPW logo without the pinball"
+                            loading="eager"
                         />
                     </div>
                     <div
