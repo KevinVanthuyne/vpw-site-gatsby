@@ -67,6 +67,105 @@ const WorkPage = () => (
                         },
                     }}
                 >
+                    {/*Big Bang Bar*/}
+                    <SwiperSlide>
+                        <a
+                            href="https://vpuniverse.com/files/file/13634-big-bang-bar-capcom-1996-vpw/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <StaticImage
+                                src="../images/tables/bbb.jpg"
+                                alt="Top-down view of Big Bang Bar playfield"
+                                layout="fullWidth"
+                            />
+                        </a>
+                    </SwiperSlide>
+                    {/* TNA */}
+                    <SwiperSlide>
+                        <a
+                            href="https://vpuniverse.com/files/file/14359-total-nuclear-annihilation-spooky-2017-vpw/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <StaticImage
+                                src="../images/tables/tna.jpg"
+                                alt="Top-down view of Total Nuclear Annihilation playfield"
+                                layout="fullWidth"
+                            />
+                        </a>
+                    </SwiperSlide>
+                    {/* Game of Thrones */}
+                    <SwiperSlide>
+                        <a
+                            href="https://vpuniverse.com/files/file/12510-game-of-thrones-le-stern-2015-vpw/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <StaticImage
+                                src="../images/tables/got.jpg"
+                                alt="Top-down view of Game of Thrones playfield"
+                                layout="fullWidth"
+                            />
+                        </a>
+                    </SwiperSlide>
+                    {/* Star Trek: The Next Generation */}
+                    <SwiperSlide>
+                        <a
+                            href="https://vpuniverse.com/files/file/13319-star-trek-the-next-generation-williams-1993-vpw-mod/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <StaticImage
+                                src="../images/tables/sttng.jpg"
+                                alt="Top-down view of Star Trek: The Next Generation playfield"
+                                layout="fullWidth"
+                            />
+                        </a>
+                    </SwiperSlide>
+                    {/* Iron Man */}
+                    <SwiperSlide>
+                        <a
+                            href="https://vpuniverse.com/files/file/12116-iron-man-vault-edition-stern-2014-vpw-edition/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <StaticImage
+                                src="../images/tables/im.jpg"
+                                alt="Top-down view of Iron Man playfield"
+                                layout="fullWidth"
+                            />
+                        </a>
+                    </SwiperSlide>
+                    {/* Road Show */}
+                    <SwiperSlide>
+                        <a
+                            href="https://vpuniverse.com/files/file/10984-red-and-teds-road-show-williams-1994-vpw-mod/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <StaticImage
+                                src="../images/tables/rs.jpg"
+                                alt="Top-down view of Road Show playfield"
+                                layout="fullWidth"
+                            />
+                        </a>
+                    </SwiperSlide>
+                    {/* X-Men */}
+                    <SwiperSlide>
+                        <a
+                            href="https://vpuniverse.com/files/file/12253-x-men-le-stern-2012-vpw-mod/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <StaticImage
+                                src="../images/tables/xmen.jpg"
+                                alt="Top-down view of X-Men playfield"
+                                layout="fullWidth"
+                            />
+                        </a>
+                    </SwiperSlide>
+                    {/* Blood Machines */}
                     <SwiperSlide>
                         <a
                             href="https://vpuniverse.com/files/file/9847-blood-machines-vpw-original-2022/"
@@ -80,6 +179,7 @@ const WorkPage = () => (
                             />
                         </a>
                     </SwiperSlide>
+                    {/* Lord of the Rings */}
                     <SwiperSlide>
                         <a
                             href="https://vpuniverse.com/files/file/8828-lord-of-the-rings-valinor-edition-stern-2003-vpw/"
@@ -93,6 +193,7 @@ const WorkPage = () => (
                             />
                         </a>
                     </SwiperSlide>
+                    {/* Indiana Jones */}
                     <SwiperSlide>
                         <a
                             href="https://vpuniverse.com/files/file/8568-indiana-jones-the-pinball-adventure-williams-1993-vpwmod/"
@@ -106,6 +207,7 @@ const WorkPage = () => (
                             />
                         </a>
                     </SwiperSlide>
+                    {/* Monster Bash */}
                     <SwiperSlide>
                         <a
                             href="https://vpuniverse.com/files/file/9091-monster-bash-williams-1998-vpwmod/"
@@ -119,6 +221,7 @@ const WorkPage = () => (
                             />
                         </a>
                     </SwiperSlide>
+                    {/* Spider Man */}
                     <SwiperSlide>
                         <a
                             href="https://vpuniverse.com/files/file/6530-spider-man-vault-edition-siggis-mod-stern-2016-vpw-mod/"
@@ -132,6 +235,7 @@ const WorkPage = () => (
                             />
                         </a>
                     </SwiperSlide>
+                    {/* Cactus Canyon */}
                     <SwiperSlide>
                         <a
                             href="https://vpuniverse.com/files/file/6267-cactus-canyon-continued-bally-1998-vpw-mod/"
@@ -145,6 +249,7 @@ const WorkPage = () => (
                             />
                         </a>
                     </SwiperSlide>
+                    {/* Metallica */}
                     <SwiperSlide>
                         <a
                             href="https://vpuniverse.com/files/file/6058-metallica-premium-monsters-stern-2013-vpw-mod/"
@@ -158,6 +263,7 @@ const WorkPage = () => (
                             />
                         </a>
                     </SwiperSlide>
+                    {/* Simpsons: Pinball Party */}
                     <SwiperSlide>
                         <a
                             href="https://vpuniverse.com/files/file/10383-simpsons-pinball-party-stern-2003-vpw-mod/"
@@ -167,6 +273,20 @@ const WorkPage = () => (
                             <StaticImage
                                 src="../images/tables/tspp.jpg"
                                 alt="Top-down view of The Simpsons: Pinball Party"
+                                layout="fullWidth"
+                            />
+                        </a>
+                    </SwiperSlide>
+                    {/* Iron Maiden */}
+                    <SwiperSlide>
+                        <a
+                            href="https://vpuniverse.com/files/file/12603-iron-maiden-legacy-of-the-beast-original-2022-vpw/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <StaticImage
+                                src="../images/tables/im_lotb.jpg"
+                                alt="Top-down view of Iron Maiden playfield"
                                 layout="fullWidth"
                             />
                         </a>
